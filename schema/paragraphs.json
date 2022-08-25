@@ -1,0 +1,23 @@
+{
+  "class": "Paragraph",
+  "description": "Subsection of the body",
+  "vectorIndexType": "hnsw",
+  "vectorizer": "text2vec-transformers",
+  "properties": [
+    {
+      "name": "index",
+      "dataType": ["number"],
+      "description": "The paragraph index within the article"
+    },
+    {
+      "name": "content",
+      "dataType": ["text"],
+      "description": "Text content from the paragraph"
+    },
+    {
+      "name": "fromArticle",
+      "dataType": ["Article"],
+      "description": "The article to which belongs the Paragraph"
+    }
+  ]
+}
