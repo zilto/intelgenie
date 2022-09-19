@@ -2,8 +2,13 @@
   "class": "Article",
   "description": "Written content",
   "vectorIndexType": "hnsw",
-  "vectorizer": "text2vec-transformers",
+  "vectorizer": "text2vec-contextionary",
   "properties": [
+    {
+      "name": "source_link",
+      "dataType": ["string"],
+      "description": "URL of the site where the article was found"
+    },
     {
       "name": "title",
       "dataType": ["text"],
@@ -20,14 +25,9 @@
       "description": "Text content extracted from body section."
     },
     {
-      "name": "paragraphCount",
-      "dataType": ["number"],
-      "description": "The number of paragraphs in the article body section."
-    },
-    {
-      "name": "source",
+      "name": "link",
       "dataType": ["string"],
-      "description": "Authors of the written content."
+      "description": "URL of the article"
     }
   ]
 }

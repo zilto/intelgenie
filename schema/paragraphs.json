@@ -2,7 +2,7 @@
   "class": "Paragraph",
   "description": "Subsection of the body",
   "vectorIndexType": "hnsw",
-  "vectorizer": "text2vec-transformers",
+  "vectorizer": "text2vec-contextionary",
   "properties": [
     {
       "name": "index",
