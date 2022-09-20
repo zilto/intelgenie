@@ -10,7 +10,7 @@ The text objects are embedded using the `Contextionary` Weaviate module. This st
 
 The embedding defined by the `Contextionary` can be queried to retrieve nearest neighbors. Also, `concepts` can be added to the `Contextionary` by writing a text definiton. Existing concepts can be modified with new definition to tune the embedding for your use case.
 
-![Screenshot]
+![Screenshot](https://raw.githubusercontent.com/zilto/intelgenie/main/docs/query.PNG)
 
 ## Query example
 For the keyword query "future", the sorted results are:
@@ -29,7 +29,7 @@ For the query "future" for both keyword + semantic:
 3. "Towards Helpful Robots: Grounding Language in Robotic Affordances"
 
 
-![Screenshot]
+![Screenshot](https://raw.githubusercontent.com/zilto/intelgenie/main/docs/contextionary.PNG)
 
 
 ## Contextionary definition example
